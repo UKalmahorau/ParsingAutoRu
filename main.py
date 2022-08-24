@@ -31,7 +31,7 @@ prices = browser.find_elements(By.CLASS_NAME, 'ListingItemPrice__content')
 for price in prices:
     print(price.text)
 
-# Бонусное сложное задание:
+# Не удалось выполнить бонусное сложное задание:
 # Выведите модель самого дешевого автомобиля
 
 browser.close()
